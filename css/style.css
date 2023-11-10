@@ -1,8 +1,4 @@
-/* This is the required project styling. Will contain essential CSS styles like:
-   * Flex property
-   * Grid layout
-   * Cards and sections
-*/
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
@@ -17,8 +13,8 @@
   --bg-secondary: #000000;
   --card-background: #f4f4f4;
   --bg-secondary-two: #111111;
-  --bg-teal-primary: rgba(45, 212, 191, 0.1);
-  --text-teal: rgb(94, 234, 212);
+  --bg-teal-primary: rgb(240, 241, 255);
+  --text-teal: 'cornflowerblue';
 
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 
@@ -36,7 +32,7 @@
 [data-theme="dark"] {
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
-  --bg-primary: rgba(15,23,42);
+  --bg-primary: rgb(15, 23, 42);
   --text-color: #ffffff;
   --text-color-two: #222222;
   --bg-secondary: #ffffff;
