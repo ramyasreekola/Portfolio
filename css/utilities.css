@@ -89,7 +89,6 @@ h2::selection {
 .content-title h2 {
   text-align: center;
   font-size: 2rem;
-
 }
 
 .content-text {
@@ -152,12 +151,12 @@ h2::selection {
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../assets/project/rickandmorty.png) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/project-three.png) center center/cover;
 }
 
 /* Project 5 */
@@ -165,6 +164,9 @@ h2::selection {
   background: url(../assets/project/project-five.png) center center/cover;
 }
 
+.card:nth-child(6) {
+  background: url(../assets/project/project-two.png) center center/cover;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
